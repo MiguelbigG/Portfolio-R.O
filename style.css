@@ -7,13 +7,19 @@ body {
     min-height: 700px;
     padding: 50px;
     border-bottom: 70px solid #000136;
-    border-right: 50px;
 }
 
 h1 { font-size: 50px; }
 h2 { font-size: 30px; text-decoration: underline; }
+h3 { font-size: 24px; text-decoration: underline;}
 p { font-size: 20px; }
-hr { border: none; border-top: 6px solid #444; }
+hr { border: none; border-top: 8px solid #444; }
+
+.titre-projet {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 
 .projet, .competences {
     display: flex;
@@ -35,9 +41,10 @@ hr { border: none; border-top: 6px solid #444; }
 }
 
 .bouton {
-    background-color: #9999aa;
+    background-color: #3ecbff;
     color: white;
     padding: 15px;
+    border-radius: 5px ;
     text-decoration: none;
     display: inline-block;
     margin-left: 20px;
